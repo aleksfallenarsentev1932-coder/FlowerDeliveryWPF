@@ -1,0 +1,16 @@
+﻿<Window x:Class="FlowerDeliveryWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Управление доставкой цветов" Height="450" Width="800">
+    <Grid Background="#F0F0F0">
+        <StackPanel Margin="20">
+            <TextBlock Text="База данных цветочного магазина" FontSize="24" FontWeight="Bold" Margin="0,0,0,20" HorizontalAlignment="Center"/>
+
+            <Button Content="Загрузить данные из облака" Click="LoadData_Click" 
+                    Height="40" Width="250" Background="#4CAF50" Foreground="White" FontWeight="Bold" Cursor="Hand"/>
+
+            <DataGrid x:Name="DataDisplayGrid" Margin="0,20,0,0" Height="280" 
+                      AutoGenerateColumns="True" Background="White" IsReadOnly="True" AlternatingRowBackground="#F9F9F9"/>
+        </StackPanel>
+    </Grid>
+</Window>

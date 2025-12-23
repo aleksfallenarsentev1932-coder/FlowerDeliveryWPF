@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowerDeliveryWPF", "FlowerDeliveryWPF.csproj", "{BDB3DAAB-5E1E-45D0-8BCD-56A3BD775FD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDB3DAAB-5E1E-45D0-8BCD-56A3BD775FD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDB3DAAB-5E1E-45D0-8BCD-56A3BD775FD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDB3DAAB-5E1E-45D0-8BCD-56A3BD775FD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDB3DAAB-5E1E-45D0-8BCD-56A3BD775FD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C386132E-3941-40F7-86A6-ABFC074251E8}
+	EndGlobalSection
+EndGlobal
